@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get 'about', to: 'articles#about'
 
   get 'articles', to: 'articles#articles'
+
+  get 'article1', to: 'articles#article1'
 end
